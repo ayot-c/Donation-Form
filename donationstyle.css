@@ -1,0 +1,172 @@
+/* Set background image for the whole page */
+body {
+   background: url('home-bg.jpg') no-repeat center center/cover;
+   margin: 0; /* Remove default margin */
+   padding: 0; /* Remove default padding */
+   font-family: Arial, sans-serif; /* Optional: Set a font for the entire page */
+}
+
+/* Header styles */
+.header {
+   background: #4caf50;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+}
+
+.header .logo {
+   text-decoration: none;
+   color: white;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.header .logo-img {
+   height: 50px;
+   width: auto;
+   margin-right: 10px;
+}
+
+.navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navbar li {
+   margin: 0 10px;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+}
+
+/* Donate section styles */
+.donate-home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url('images/donate-background.jpg') no-repeat center center/cover;
+   height: 300px;
+   color: white; /* Ensure text is readable against background */
+}
+
+.donate-content {
+   text-align: center;
+}
+
+.heading {
+   font-size: 36px;
+   margin: 0;
+}
+
+.donate-class {
+   padding: 20px;
+   background: white;
+   max-width: 800px;
+   margin: 20px auto;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+
+.title {
+   margin-bottom: 20px;
+   font-size: 24px;
+}
+
+.inputBox {
+   margin: 10px;
+}
+
+.inputBox span {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.inputBox input,
+.inputBox select,
+.inputBox textarea {
+   width: 97%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.inputBox textarea {
+   height: 100px;
+   resize: vertical;
+}
+
+.flex {
+   display: flex;
+   gap: 24vw;
+   /* margin: 10px; */
+}
+
+.submit-btn {
+   width: 100%;
+   padding: 10px;
+   background: #4caf50;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.submit-btn:hover {
+   background: #45a049;
+}
+
+/* Footer styles */
+.footer {
+   background: #333;
+   color: white;
+   padding: 20px 0;
+}
+
+.footer .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.footer-col {
+   flex: 1;
+   padding: 10px;
+   min-width: 200px;
+}
+
+.footer-col h4 {
+   margin-bottom: 10px;
+}
+
+.footer-col ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.footer-col ul li {
+   margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.footer-col .social-links {
+   display: flex;
+   gap: 10px;
+}
+
+.footer-col .social-links a {
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}

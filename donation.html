@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Plant Trees</title>
+    <link rel="stylesheet" href="donationstyle.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">LEAF NOW</a>
+        <img src="leafNow-img.jpg" alt="LeafNow" class="logo-img">
+        <!-- <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">HOME</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="seedlink.html">SEEDLINK</a></li>
+                <li><a href="index.html#project">PROJECTS</a></li>
+                <li><a href="donate.html">DONATE</a></li>
+                <li><a href="index.html#ourwork">OUR WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="account.html" class="user">Login</a></li>
+            </ul> -->
+        </nav>
+    </header>
+
+    <div class="donate-home">
+        <div class="donate-background">
+            <div class="donate-content">
+                <h1 class="heading">DONATE</h1>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="donate-class">
+            <form id="donationForm">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">DONOR INFORMATION</h3>
+                        <div class="inputBox">
+                            <span>Full Name :</span>
+                            <input type="text" id="fullName" placeholder="Your Name" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Email :</span>
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Phone Number :</span>
+                            <input type="tel" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <div class="inputBox">
+                            <span>Address :</span>
+                            <input type="text" id="address" placeholder="Street Address" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>City :</span>
+                            <input type="text" id="city" placeholder="City" required>
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>State/Province/Region :</span>
+                                <input type="text" id="state" placeholder="State/Province/Region" required>
+                            </div>
+                            <div class="inputBox">
+                                <span>Postal/Zip Code :</span>
+                                <input type="text" id="zipCode" placeholder="Postal/Zip Code" required>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <span>Country :</span>
+                            <input type="text" id="country" placeholder="Country" required>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <h3 class="title">DONATION DETAILS</h3>
+                        <div class="inputBox">
+                            <span>Donation Amount :</span>
+                            <input type="number" id="donationAmount" placeholder="Amount" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Donation Frequency :</span>
+                            <select id="donationFrequency" required>
+                                <option value="one-time">One-time</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="yearly">Yearly</option>
+                            </select>
+                        </div>
+                        <h3 class="title">PAYMENT INFORMATION</h3>
+                        <div class="inputBox">
+                            <span>Cards Accepted :</span>
+                            <img src="card_img.png" alt="Cards Accepted">
+                        </div>
+                        <div class="inputBox">
+                            <span>Name on Card :</span>
+                            <input type="text" id="nameOnCard" placeholder="Name on Card" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Credit Card Number :</span>
+                            <input type="text" id="cardNumber" placeholder="1111-2222-3333-4444" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Exp Month :</span>
+                            <input type="text" id="expMonth" placeholder="Month" required>
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Exp Year :</span>
+                                <input type="text" id="expYear" placeholder="Year" required>
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="text" id="cvv" placeholder="CVV" required>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <span>Billing Address (if different):</span>
+                            <input type="text" id="billingAddress" placeholder="Billing Address">
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="title">ADDITIONAL INFORMATION</h3>
+                <div class="inputBox">
+                    <span>Message or Dedication :</span>
+                    <textarea id="message" placeholder="Leave a message or dedicate your donation"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="checkbox" id="newsletter" value="subscribe">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                </div>
+                <div class="inputBox">
+                    <input type="checkbox" id="volunteer" value="interested">
+                    <label for="volunteer">I'm interested in volunteering</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Proceed To Checkout</button>
+            </form>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
